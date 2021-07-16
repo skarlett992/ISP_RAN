@@ -13,9 +13,10 @@ ECG
 Для решения задачи необходимо 
 #### Вариант1: 
 
-Иметь доступ к предобработанным датасетам на вход на kaggle по ссылке:
+Иметь доступ к предобработанным датасетам, где указаны бинарные таргеты (иногда сразу несколько столбцов: 1=присутствие заболевания, 0= отсутствует)
+на вход на kaggle по ссылке:
 https://www.kaggle.com/natalyayurina/ecg-heartbeat-categorization-neural-network 
-(работа адаптирована из кода https://www.kaggle.com/basharalkuwaiti/ecg-heartbeat-categorization-neural-network) 
+(модель адаптирована из кода https://www.kaggle.com/basharalkuwaiti/ecg-heartbeat-categorization-neural-network) 
 
 
 # Модель требует доработки!

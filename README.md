@@ -16,7 +16,7 @@ ECG
 Иметь доступ к предобработанным датасетам, где указаны бинарные таргеты (иногда сразу несколько столбцов: 1=присутствие заболевания, 0= отсутствует)
 на вход на kaggle по ссылке:
 https://www.kaggle.com/natalyayurina/ecg-heartbeat-categorization-neural-network 
-(модель адаптирована из кода https://www.kaggle.com/basharalkuwaiti/ecg-heartbeat-categorization-neural-network) 
+(модель адаптирована под имеющиеся данные, взята кода https://www.kaggle.com/basharalkuwaiti/ecg-heartbeat-categorization-neural-network) 
 
 
 # Модель требует доработки!

@@ -11,32 +11,24 @@ ECG
 
 Решение:
 Для решения задачи необходимо 
-#### Вариант1: 
-
-Иметь доступ к предобработанным датасетам, где указаны бинарные таргеты (иногда сразу несколько столбцов: 1=присутствие заболевания, 0= отсутствует)
-на вход на kaggle по ссылке:
-https://www.kaggle.com/natalyayurina/ecg-heartbeat-categorization-neural-network 
-(модель адаптирована под имеющиеся данные, взята кода https://www.kaggle.com/basharalkuwaiti/ecg-heartbeat-categorization-neural-network) 
 
 
-# Модель требует доработки!
-В данный момент она использует только первый из таргетов (синусовый ритм), расходует слишком много памяти, работает медленно.
-Также этот код является первым вариантом модели (без использования признаков pqrst-комплексов). 
+# Запуск работы
 
-Для запуска модели с признаками pqrst-комплексов необходимо предобработать промежуточные файлы csv ЭКГ любым из предложенных в коде https://github.com/berndporr/py-ecg-detectors.git алгоритмов,
-склеить с файлами на вход для модели https://www.kaggle.com/natalyayurina/ecg-heartbeat-categorization-neural-network 
-Затем методом p-value посчитать статистичекую значимость (на основании посчитанных метрик и признаков pqrst)
 
-Также необходимо добавить алгоритм, позволяющий работать с меньшим объемом данных на вход либо увеличить мощность  (в репозитории скрин, где модель обрабатывалась несколько часов и не прошла все эпохи)
-
-#### Вариант2: 
-
-Чтобы получить датасеты, которые подаем на вход по ссылке https://www.kaggle.com/natalyayurina/ecg-heartbeat-categorization-neural-network, необходимо:
+## Предобработка входных данных:
 
 1) иметь локально сохраненные файлы, указанные в описании к задаче по ссылке https://physionet.org/static/published-projects/ptb-xl/ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.1.zip
 2) запустить код по ссылке https://www.kaggle.com/natalyayurina/ptb-xl-dataset-wrangling, получить на выходе датасеты, локально сохранить
-3) иметь локально сохраненный файл (вспомогательный) target_dict.ipynb и Natalya_Iurina_task.ipynb
+3) иметь локально сохраненные файлы target_dict.ipynb и Natalya_Iurina_task.ipynb из текущего репозитория
 4) запустить код в jupyter Natalya_Iurina_task.ipynb и в нем использовать датасеты-признаки из п.2
 5) получить на выходе датасеты-признаки, которые будем подавать на вход в модель https://www.kaggle.com/natalyayurina/ecg-heartbeat-categorization-neural-network
+
+## Запуск: 
+6) Для запуска и реализации работы необходимо перейти по ссылке https://www.kaggle.com/natalyayurina/ecg-heartbeat-categorization-neural-network 
+
+
+# Модель требует доработки: 
+https://github.com/skarlett992/ISP_RAN/issues/1 
 
 

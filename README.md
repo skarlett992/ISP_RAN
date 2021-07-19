@@ -18,7 +18,7 @@ ECG
 
 ## Предобработка входных данных:
 
-1) иметь локально сохраненные файлы, указанные в описании к задаче по ссылке https://physionet.org/static/published-projects/ptb-xl/ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.1.zip
+1) иметь локально сохраненные файлы, указанные в описании к задаче по ссылке https://physionet.org/static/published-projects/ptb-xl/ptb-xl-a-large-publicly-available-electrocardiography-dataset-1.0.1.zip (Version4)
 2) запустить код по ссылке https://www.kaggle.com/natalyayurina/ptb-xl-dataset-wrangling, получить на выходе датасеты, локально сохранить
 3) иметь локально сохраненные файлы target_dict.ipynb и Natalya_Iurina_task.ipynb из текущего репозитория
 4) запустить код в jupyter Natalya_Iurina_task.ipynb и в нем использовать датасеты-признаки из п.2

@@ -19,14 +19,32 @@ virtualenv venv --python=python3.7.7
 ```
 pip install -r requirements.txt
 ```
+ссылки на некоторые файлы .csv для запуска программы:
+1. основные, - обработанные сигналы ЭКГ, приведенные с помощью специальной библиотеки в датасет.
+Их можно получить, запустив код по ссылке https://www.kaggle.com/natalyayurina/ptb-xl-dataset-wrangling
+
+1) 'train_signal.csv'
+https://drive.google.com/file/d/1gzUcPSQyrhLeMta-i79LGupPHueAiL9T/view?usp=sharing
+2) 'test_signal.csv'
+https://drive.google.com/file/d/1J70RMXu--lNVr4O7WBjxhjUyMS8M-Bmp/view?usp=sharing
+3) 'valid_signal.csv'
+https://drive.google.com/file/d/1EQbiR4SSlfnviqswYY43BrUT_luf2bdy/view?usp=sharing
+
+2. датасеты с данными по заболеваниям (бинарные по каждому таргету): 
+
+'train_multi.csv' (https://drive.google.com/file/d/18Hi0sNR8VI-dDANQ6e1EW0IKBmodyRX3/view?usp=sharing)
+'test_multi.csv' (https://drive.google.com/file/d/1iUz15UEa6rg70E4CZWGZyJcMU81HRM_j/view?usp=sharing)
+'valid_multi.csv' (https://drive.google.com/file/d/1OGITCFHiK0zcdSrkeOK3m6YRMpyjJhXN/view?usp=sharing)
+
+Датасеты с данными по заболеваниям также можно получить:
+1) запустив файл 'get_multidatas_ill.py' и
+Имея файл 'ill_data.csv' (https://drive.google.com/file/d/102WQIVH5zrdRvG0BTfKY51wClV9_J3gx/view?usp=sharing),
+который формируется 
+из 'ptbxl_database.csv' (https://drive.google.com/file/d/1AIKKPeJVrtXuGKiHWhNQSF3ClJ5Tc812/view?usp=sharing), 
+в столбце 'report' которого хранятся таргеты по заболеваниям и номера ЭКГ, соответствующие им
+ и файла 'target_ills_data.py'
+
 запустить проект
 ```
 python main.py
 ```
-## Предобработка входных данных:
-
-
-## Запуск: 
-
-
-

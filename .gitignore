@@ -1,0 +1,6 @@
+*\.csv
+/venv
+/venv/
+.DS_Store
+__pycache__/
+.idea
